@@ -13,7 +13,7 @@ Assessing the viability of a technical solution — how completely it solves the
 
 The dimensions assume a software engineering context (language, library, framework, dependencies, blast radius).
 
-## Dimensions
+### Dimensions
 
 | Dimension | Evaluative Question |
 | --- | --- |
@@ -23,7 +23,7 @@ The dimensions assume a software engineering context (language, library, framewo
 | Cost / Effort | How much engineering investment does it require? |
 | Risk | How recoverable is failure? |
 
-## Descriptors
+### Descriptors
 
 Quality Scale. For inverted-polarity dimensions (Cost / Effort, Risk), `Strong` means low effort / small blast radius — not high cost / high risk.
 
@@ -35,7 +35,7 @@ Quality Scale. For inverted-polarity dimensions (Cost / Effort, Risk), `Strong` 
 | Cost / Effort | Trivial change; no new dependencies. | Moderate change; manageable new dependencies or learning curve. | Substantial change; new dependency surface or specialized expertise. | Significant engineering effort or large new dependency surface. |
 | Risk | Fully reversible; small blast radius. | Reversible with effort; medium blast radius. | Reversible only with coordination; broad blast radius. | Hard to reverse; large blast radius or fragile coupling. |
 
-## References
+### References
 
 - Raymond, E. S. (2003). *The Art of Unix Programming*. Addison-Wesley. — Principle of Least Astonishment; idiomatic design.
 - Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (Eds.). (2016). *Site Reliability Engineering*. O'Reilly. — Blast radius; reversibility; risk.
