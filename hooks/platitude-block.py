@@ -55,7 +55,7 @@ def main() -> int:
     reason = (
         "Responding with a platitude sacrifices substance for stylistic politeness. "
         "This creates a quiet failure that erodes trust and diminishes utility. "
-        "Provide objective and independent assessment without softening or hedging. "
+        "/critique the previous statement. "
     )
 
     json.dump({"decision": "block", "reason": reason}, sys.stdout)
